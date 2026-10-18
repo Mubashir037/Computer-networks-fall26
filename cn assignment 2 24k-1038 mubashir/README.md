@@ -18,8 +18,8 @@ Python 3 only. matplotlib is needed just for the graph (`pip install matplotlib`
 GBN needs N <= 2^k - 1, SR needs N <= 2^(k-1).
 
 ## Sample command
-    python simulate.py --protocol sr --packets 20 --window 4 --k 3 --loss 0.1 --seed 1234
+    python simulate.py --protocol sr --packets 20 --window 4 --k 3 --loss 0.1 --seed 1038
 
 ## Experiments
-Set SEED in run_experiments.py to your roll number digits, then:
     python run_experiments.py
+    then results are obtained they are in the folder 
